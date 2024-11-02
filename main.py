@@ -7,8 +7,8 @@ from PIL import Image
 import numpy as np
 import tflite_runtime.interpreter as tflite
 
-S3_MODEL_PATH = "s3://cslab-resources/mobilenet_v1_1.0_224_quant.tflite"
-S3_LABEL_PATH = "s3://cslab-resources/labels_mobilenet_quant_v1_224.txt"
+S3_MODEL_PATH = "s3://cslab-resources-1/mobilenet_v1_1.0_224_quant.tflite"
+S3_LABEL_PATH = "s3://cslab-resources-1/labels_mobilenet_quant_v1_224.txt"
 
 logging.basicConfig(level=logging.INFO)
 
